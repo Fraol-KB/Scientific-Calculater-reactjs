@@ -1,0 +1,11 @@
+.screen{
+	height: 100px;
+	/* background-color: aqua; */
+	border-radius: 5px;
+	border: aqua 1px solid ;
+	align-items: end;
+	text-align: end;
+	
+	
+	
+}
