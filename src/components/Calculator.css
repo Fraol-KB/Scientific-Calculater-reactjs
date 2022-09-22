@@ -5,8 +5,10 @@ input, button {
 	width: 65px;
 	border-radius: 5px;
 }
+
 .body{
-	width: fit-content;
+	min-width: 550px;
+	display: fixed;
 	border: white 1px solid;
 	border-radius: 5px;
 	padding: 5px;
