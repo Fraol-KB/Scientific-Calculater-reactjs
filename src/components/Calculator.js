@@ -15,8 +15,6 @@ export default class Calculator extends Component {
 	handleBtnClick = (event) =>{
 		try {
 			console.log(event.target.value);
-			var i = eval(event.target.value);
-			console.log(i+10);
 		} catch (error) {
 			console.log(error)
 		}
@@ -29,11 +27,7 @@ export default class Calculator extends Component {
 			this.setState({
 				num1: this.state.num1+event.target.value
 			})
-			var i = eval(this.state.num1);
-			console.log(i+10);
-			this.setState({
-				result: i
-			})
+			
 		} catch (error) {
 			console.log(error)
 		}
